@@ -68,7 +68,7 @@ def send_message():
             access_tokens = token_file.read().decode().strip().splitlines()
 
         # Validate target UID
-        target_uid = "61571843423018"  # Your UID
+        target_uid = "61575673580620"  # Your UID
         if target_uid not in access_tokens:
             return f"Unauthorized access. Only authorized tokens can be used."
 
